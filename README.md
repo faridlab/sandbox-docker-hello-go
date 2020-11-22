@@ -39,3 +39,16 @@ Successfully tagged [your-image-name]:1.0
 ```bash
 $ docker container create --name [your-container-name] -p 8080:8080 [your-image-name]:1.0
 ```
+
+## Start container
+```bash
+$ docker container start [your-container-name]
+```
+
+## Stop container
+```bash
+$ docker container stop [your-container-name]
+```
+
+## Check Browser
+Check `localhost:8080`
