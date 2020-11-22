@@ -34,3 +34,8 @@ Removing intermediate container 8007cabcb542
 Successfully built 05f7118af369
 Successfully tagged [your-image-name]:1.0
 ```
+
+## Create container
+```bash
+$ docker container create --name [your-container-name] -p 8080:8080 [your-image-name]:1.0
+```
